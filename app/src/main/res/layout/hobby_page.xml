@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcdbdb"
+    tools:context=".HobbyPage">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/hobby_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        tools:context="com.example.tjman.rendezvouseventfeedlist;">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/myrecyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/cardview_dark_background">
+
+        </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/tv_no_movies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No hobbies to show. Add some right now!"
+        android:textAlignment="center"
+        android:textSize="18sp"/>
+
+
+
+
+
+
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:scrollbars="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="22dp"/>
+
+    </FrameLayout>
+
+
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/nav_header"
+            app:menu="@menu/navigation_menu">
+
+        </android.support.design.widget.NavigationView>
+
+    </android.support.v4.widget.DrawerLayout>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="23dp"
+            android:layout_marginEnd="23dp"
+            android:layout_marginBottom="22dp"
+            app:srcCompat = "@drawable/plus"
+            />
+
+
+
+</RelativeLayout>

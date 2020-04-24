@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "24026568716",
+    "firebase_url": "https://rendezvous-event-feed.firebaseio.com",
+    "project_id": "rendezvous-event-feed",
+    "storage_bucket": "rendezvous-event-feed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:24026568716:android:ce66eeee7b9a7fbb",
+        "android_client_info": {
+          "package_name": "com.example.tjman.rendezvouseventfeedlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "24026568716-p2u85uni1ihv2id3urviotf0l13atmp2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tjman.rendezvouseventfeedlist",
+            "certificate_hash": "4b6207339190850a18a5879ac5aa2871ffb85270"
+          }
+        },
+        {
+          "client_id": "24026568716-2mhr56q1oahv6ern8khj28cshptlm9uc.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "24026568716-2mhr56q1oahv6ern8khj28cshptlm9uc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACw3FgH5kxAVo8-Yt79Yd0ahrk6FCvRcQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "24026568716-2mhr56q1oahv6ern8khj28cshptlm9uc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

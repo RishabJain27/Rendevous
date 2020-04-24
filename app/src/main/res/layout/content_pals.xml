@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pals">
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/content_pals"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        tools:context="com.example.tjman.rendezvouseventfeedlist;">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/myrecyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_dark_background">
+
+    </android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/palpic1"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:src="@drawable/palspic1"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <Button
+                android:id="@+id/palbutton1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:text="James Hall" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/palpic2"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:src="@drawable/palspic2"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <Button
+                android:id="@+id/palbutton2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="Sarah Brett" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/palpic3"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:src="@drawable/palspic3"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <Button
+                android:id="@+id/palbutton3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="Michael Robinson" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/palpic4"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:src="@drawable/palspic4"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <Button
+                android:id="@+id/palbutton4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="Chris Pine" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/palpic5"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:src="@drawable/palspic5"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <Button
+                android:id="@+id/palbutton5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="Jessica Jones" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/palpic6"
+                android:layout_width="65dp"
+                android:layout_height="75dp"
+                android:src="@drawable/palspic6"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <Button
+                android:id="@+id/palbutton6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="Whitney Reid" />
+        </LinearLayout>
+    </LinearLayout>
+        <android.support.design.widget.NavigationView
+            android:id="@+id/nv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/nav_header"
+            app:menu="@menu/navigation_menu">
+
+        </android.support.design.widget.NavigationView>
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+</android.support.constraint.ConstraintLayout>
